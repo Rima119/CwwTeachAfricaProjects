@@ -1,0 +1,51 @@
+.navbarScroll.navbarDark {
+    background-color: skyblue;
+}
+
+.pic {
+    height:100vh;
+    background: url('images/flower.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.author {
+    font-size: 4.5rem;
+}
+.role {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+.AboutPage {
+    width: 100%;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+
+.card-title {
+    text-align: center;
+}
+.card:hover {
+    color: rgb(196, 165, 28);
+}
+.servicesText:hover {
+    border: 1px solid rgb(196, 165, 28);
+}
+#footer {
+    background-color: skyblue;
+    text-align: center;
+}
