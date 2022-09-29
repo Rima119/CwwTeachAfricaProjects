@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+  background-image: url('linear-gradient.png');
+}
+
+.container {
+  position: relative;
+  max-width: 550px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 85px auto 0;
+  background-color:#fff;
+  box-shadow: 0 5px 7px rgba(160, 10, 10, 0.856);
+}
+.container .in-plan {
+  position: relative;
+  height: 64px;
+  width: 100%;
+}
+.in-plan textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 18px 45px 18px 15px;
+  border: 1px solid rgb(188, 194, 155);
+  resize: none;
+}
+.in-plan textarea:focus {
+  border-color: #e673b2;
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+.in-plan .note-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 24px;
+  color: rgba(188, 194, 155, 0.952);
+}
+.in-plan textarea:focus ~ .note-icon {
+  color: #e673b2;;
+}
+.container .in-List {
+  max-height: 380px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.in-List .list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: #f2f2f2;
+  padding: 20px 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.in-List .list input {
+  height: 16px;
+  min-width: 16px;
+  accent-color: rgb(93, 151, 93);
+  pointer-events: none;
+}
+.in-List .list .task {
+  margin: 0 30px 0 15px;
+  word-break: break-all;
+}
+.list input:checked ~ .task {
+  text-decoration: line-through;
+}
+.in-List .list i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fa1010;
+  padding: 5px;
+  opacity: 0.6;
+  display: none;
+}
+.in-List .list:hover i {
+  display: inline-flex;
+}
+.in-List .list i:hover {
+  opacity: 1;
+}
+.container .pend-task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.pend-task span {
+  color: rgb(0, 0, 0);
+}
+.pend-task .clear-button {
+  padding: 6px 12px;
+  outline: none;
+  border: none;
+  background: #68a3c5;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.clear-button:hover {
+  background-color: #3263e7;
+}
