@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: no-repeat fixed;
+    background-image: url(https://th.bing.com/th/id/R.7e15559ef904ecfcab3d85fce6a84faa?rik=vhDqEEv2M%2fsmLQ&riu=http%3a%2f%2falyssahollingsworth.com%2fwp-content%2fuploads%2f2017%2f05%2fbackground1.jpg&ehk=eWkCSVJRs2t1GjKZOj2n%2b0Ucy8GbH2ErCWTHhmNwwgI%3d&risl=&pid=ImgRaw&r=0);
+    padding: 50px 0px;
+}
+button.clear {
+    background: #63bbe4;
+    color: #fff;
+}
+table {
+    background: rgb(93, 216, 175);
+    padding: 7px 5px;
+    border: 6px solid rgb(93, 216, 175);
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 27px #2fd2e7;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+button.equal {
+    width: 88%;
+    background: #0f74a3;
+}
+button.equal:hover{
+	background: #1faa54;
+}
+input[type="text"] {
+    width: 450px;
+    height: 81px;
+    border: 1px solid rgb(93, 216, 175);
+    padding: 10px 20px;
+    font-size: 29px;
+    background: rgb(93, 216, 175);
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+button {
+    padding: 10px 20px;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: cursive;
+    background: rgb(150, 149, 149);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+	background: #1faa54;
+}
